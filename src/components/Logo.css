@@ -1,0 +1,10 @@
+.logo{
+    height: 100%;
+    width: 100%;
+    background-color: var(--bg-header);
+}
+
+.logoImg {
+    width: 190px;
+    margin-top: 15px;
+}

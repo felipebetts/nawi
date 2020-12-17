@@ -1,6 +1,6 @@
 :root {
 
-  --bg-header: rgb(57, 60, 73);
+  --bg-header: #1f2438;
   --bg-dark: rgb(13, 15, 24);
 
   --bg-color: rgb(235, 220, 201);
@@ -11,6 +11,8 @@
   --header-height: 40px;
 }
 
+
+/* --bg-header: rgb(39, 45, 73); */
 
 body {
   /* background-color: var(--bg-color); */
@@ -33,11 +35,16 @@ body {
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 60px 1fr 100px;
-  grid-template-areas: 
+  grid-template-rows:150px 60px 1fr 100px;
+  grid-template-areas:
+    'logo' 
     'header'
     'content'
     'footer';
+}
+
+.logo {
+  grid-area: logo;
 }
 
 .header {
