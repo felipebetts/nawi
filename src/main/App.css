@@ -14,7 +14,7 @@
 
 body {
   /* background-color: var(--bg-color); */
-  background-color: #eee;
+  background-color: var(--bg-color);
   color: var(--font-color);
 
   height: 100%;
