@@ -1,0 +1,23 @@
+.footer {
+    background-color: var(--bg-header);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    font-size: 1.2em;
+
+
+    margin-top: 15px;
+}
+
+.fa-heart {
+    color: rgb(185, 0, 0);
+}
+
+.fa.fa-whatsapp {
+    font-size: 1.5em;
+    color: var(--font-color);
+    
+}
+

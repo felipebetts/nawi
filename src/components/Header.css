@@ -1,0 +1,41 @@
+.header {
+    background-color: var(--bg-header);
+    width: 95%;
+    height: var(--header-height);
+
+    margin: 15px 2.5%;
+    margin-top: 25px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .menu {
+    height: var(--header-height);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+
+.menu-item {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+
+    /* margin: 0px 15px; */
+    padding: 10px 40px;
+    height: var(--header-height);
+    width: 50px;
+}
+
+.menu-item:hover {
+    background-color: var(--bg-dark);
+}
+
+a {
+    color: var(--font-color);
+    text-decoration: none;
+}
