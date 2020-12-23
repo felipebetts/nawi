@@ -5,10 +5,13 @@
 
   --bg-color: rgb(235, 220, 201);
 
-  --loog-font-color: rgb(202, 134, 78);
+  --logo-font-color: rgb(202, 134, 78);
   --font-color: #eee;
 
   --header-height: 40px;
+
+
+  --max-width: 700px;
 }
 
 
@@ -30,9 +33,9 @@ body {
 }
 
 .app {
-  height: 100vh;
+  height: 100%;
   /* margin: 10px 40px; */
-  width: 100vw;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows:150px 60px 1fr 100px 100px;
@@ -52,10 +55,10 @@ body {
   grid-area: header;
 }
 
-.content {
+div.content {
   grid-area: content;
   color: #111;
-  margin:20px 50px;
+  margin:20px 20%;
 }
 
 .footerLogo {
@@ -78,13 +81,5 @@ body {
   display: none;
 }
 
-@media(min-width: 876px) {
-
-  /* header.header {
-    margin: 15px 20px;
-  } */
-
-  div.content { 
-    margin: 20px 20% ;
-  }
-}
+/* @media(max-width: 836px) {
+} */
