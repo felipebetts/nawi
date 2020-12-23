@@ -21,6 +21,9 @@ function Header() {
                         <div className="menu-item">Agendamento</div>
                     </Link>
                 </nav>
+                <div className="mobile-header">
+                    <i className="fa fa-bars"></i>
+                </div>
             </div>
         </header>
     )

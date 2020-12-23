@@ -12,6 +12,14 @@
     justify-content: center;
 }
 
+.mobile-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
 @media(max-width: 840px ) {
     .header {
         width: 100%;
@@ -19,10 +27,16 @@
         /* margin-top: 25px; */
         border-radius: 0;
         border-top: var(--logo-font-color) solid 1px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
     }
-    .menu-item {
+
+    .menu {
         display: none;
-        padding: 0px;
+        width: 0px;
     }
 }
 
